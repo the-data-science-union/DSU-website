@@ -1,26 +1,35 @@
 import React from 'react';
-import DSULogo from '../assets/DSULogo.svg';
 import HeaderMenuButton from '../Components/HeaderMenuButton';
 import facebookLogo from '../assets/facebookLogo.svg'; 
 import instagramLogo from '../assets/instagramLogo.svg';
-
+import Media from 'react-media';
+import MobileHeader from './MobileHeader';
+import DSULogo from '../assets/DSULogo.svg';
 function Header(){
     return(
-        <div className="flex-row flex bg-dark-blue py-5 select-none">
-        <div className="flex flex-row">
-            <img src={DSULogo} alt="website-logo" width="220" height="70" className="ml-12 mr-48"/>
-            <div className="flex flex-row gap-x-12">
-            <HeaderMenuButton buttonTitle="About Us" />
-            <HeaderMenuButton buttonTitle="The Team" />
-            <HeaderMenuButton buttonTitle="Projects" />
-            <HeaderMenuButton buttonTitle="Join Us" />
-            </div>
-            <div className="flex flex-row ml-24 mt-10">
-                <img src={facebookLogo} alt="facebook-icon" width="58" height="58" />
-                <img src={instagramLogo} alt="instagram-icon" width="45" height="45"/>
-            </div>
-        </div>
-    </div>
+                    <Media queries={{
+                        small: "(max-width: 767px)",
+                        medium: "(min-width: 768px) and (max-width: 1023px)",
+                        large: "(min-width: 1024px) and (max-width: 1229px)",
+                        xlarge: "(min-width: 1230px) and (max-width: 1535px)",
+                        xxlarge: "(min-width: 1536px)"}}>
+                        {matches=>((matches.xlarge || matches.xxlarge) ?
+                        <div className="flex-row flex bg-dark-blue py-5 select-none flex flex-row">
+                        <div className="ml-12 mr-48"><img src={DSULogo} alt="website-logo" width="220" height="70"/></div>
+                        <div className="flex flex-row gap-x-12">
+                            <HeaderMenuButton buttonTitle="About Us" />
+                            <HeaderMenuButton buttonTitle="The Team" />
+                            <HeaderMenuButton buttonTitle="Projects" />
+                            <HeaderMenuButton buttonTitle="Join Us" />
+                            <div className="flex flex-row ml-24 mt-10">
+                                <img src={facebookLogo} alt="facebook-icon" width="58" height="58" />
+                                <img src={instagramLogo} alt="instagram-icon" width="45" height="45"/>
+                            </div>
+                        </div>
+                        </div>
+                        :
+                        <MobileHeader />)}
+                    </Media>
     )
 }
 

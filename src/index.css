@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.LandSoftwareText{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    max-width:38rem;
+    font-display:swap;
+}
+
+.joiningText{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    max-width:25rem;
+    font-display:swap;
+}
