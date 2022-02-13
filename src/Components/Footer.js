@@ -15,8 +15,8 @@ function Footer(){
             </div>
             <div className="flex flex-row text-white ml-12 mr-24">
                 <div className="flex flex-col grow">
-                    <p className="text-3xl">{'>'} Contact_Us</p>
-                    <p className="text-xl">[1] email: (ucladsu@gmail.com)</p>
+                    <p className="text-xl lg:text-3xl">{'>'} Contact_Us</p>
+                    <p className="text-lg lg:text-xl">[1] email: (ucladsu@gmail.com)</p>
                 </div>
                 <div className="flex flex-col">
                     <div className="flex flex-row gap-x-4 mb-8">
@@ -24,8 +24,8 @@ function Footer(){
                         <img src={LinkedInFooter} alt="linkedin link" />
                         <img src={FacebookFooter} alt="facebook link" />
                     </div>
-                    <p className="text-center tracking-wide font-thin text-lg">© Copyright 2022</p>
-                    <p className="text-center tracking-wide font-thin text-lg">{'<'}All rights reserved{'>'}</p>
+                    <p className="text-center tracking-wide font-thin text-md lg:text-lg">© Copyright 2022</p>
+                    <p className="text-center tracking-wide font-thin text-md lg:text-lg">{'<'}All rights reserved{'>'}</p>
                 </div>
 
             </div>

@@ -19,9 +19,7 @@ function MobileHeader(){
     const options=['<Home>','<About Us>','<The Team>','<Projects>','<Join Us>'];
     return(
         <div className="flex flex-row">
-            <div className="basis-1/2"><img src={DSULogo} alt="website-logo" width="220" height="70" className="ml-12"/></div>
-            <img src={facebookLogoMobile} alt="facebook-icon" width="58" height="58"/>
-            <img src={instagramLogoMobile} alt="instagram-icon" width="45" height="45"/>
+            <div className="basis-1/2"><img src={DSULogo} alt="website-logo" width="220" height="70" className="md:ml-12"/></div>
             <div className="grow flex justify-end">
             <IconButton
             aria-label="more"
@@ -31,7 +29,7 @@ function MobileHeader(){
             aria-haspopup="true"
             onClick={handleClick}
             >
-                <img src={HamburgerMenu} alt="hamburger-menu" />
+                <img src={HamburgerMenu} alt="hamburger-menu"/>
             </IconButton>
             <Menu
             id="long-menu"
