@@ -10,7 +10,8 @@ module.exports = {
       'header-orange':'#FF925B',
       'header-hover-orange':'#AF420C',
       'white':'#FFFFFF',
-      'gray-black':'#595D60'
+      'gray-black':'#595D60',
+      'footer-blue':'#2E488E'
     }
   },
   plugins: [],
