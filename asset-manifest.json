@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DSU-website/static/css/main.b3d92c14.css",
-    "main.js": "/DSU-website/static/js/main.865b7a8d.js",
+    "main.css": "/DSU-website/static/css/main.c0fd6ffc.css",
+    "main.js": "/DSU-website/static/js/main.d44f53a7.js",
     "static/media/onlineGraphic.svg": "/DSU-website/static/media/onlineGraphic.efe1636423d4c0de10f252f0e53d57c6.svg",
     "static/media/HomePageGraphic.svg": "/DSU-website/static/media/HomePageGraphic.f2b4b4d7986ca28dd115bbae86206f4c.svg",
     "static/media/DSULogo.svg": "/DSU-website/static/media/DSULogo.368b6150a1aedf0954147575f626e5d7.svg",
@@ -15,11 +15,11 @@
     "static/media/instagramLogoMobile.svg": "/DSU-website/static/media/instagramLogoMobile.1b0bc22bb55774ca872432bdf1f9de55.svg",
     "static/media/instagramLogo.svg": "/DSU-website/static/media/instagramLogo.d96cb8a8d3a0b81872159b1c43dd789d.svg",
     "static/media/HamburgerMenu.svg": "/DSU-website/static/media/HamburgerMenu.9941da53c8ac3b0a18e0918b6c86eea7.svg",
-    "main.b3d92c14.css.map": "/DSU-website/static/css/main.b3d92c14.css.map",
-    "main.865b7a8d.js.map": "/DSU-website/static/js/main.865b7a8d.js.map"
+    "main.c0fd6ffc.css.map": "/DSU-website/static/css/main.c0fd6ffc.css.map",
+    "main.d44f53a7.js.map": "/DSU-website/static/js/main.d44f53a7.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3d92c14.css",
-    "static/js/main.865b7a8d.js"
+    "static/css/main.c0fd6ffc.css",
+    "static/js/main.d44f53a7.js"
   ]
 }
