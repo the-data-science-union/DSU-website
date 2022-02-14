@@ -6,7 +6,7 @@ import MenuItem from '@mui/material/MenuItem';
 import DSULogo from '../assets/DSULogo.svg';
 import facebookLogoMobile from '../assets/facebookLogoMobile.svg'; 
 import instagramLogoMobile from '../assets/instagramLogoMobile.svg';
-
+import {Link} from 'react-router-dom';
 function MobileHeader(){
      const [anchorEl, setAnchorEl] = React.useState(null);
     const open = Boolean(anchorEl);
@@ -16,10 +16,10 @@ function MobileHeader(){
     const handleClose = () => {
       setAnchorEl(null);
     };
-    const options=['<Home>','<About Us>','<The Team>','<Projects>','<Join Us>'];
+    const options=['About Us','The Team','Projects','Join Us'];
     return(
         <div className="flex flex-row">
-            <div className="basis-1/2"><img src={DSULogo} alt="website-logo" width="220" height="70" className="md:ml-12"/></div>
+            <Link to='/' ><div className="basis-1/2"><img src={DSULogo} alt="website-logo" width="220" height="70" className="md:ml-12"/></div></Link>
             <div className="grow flex justify-end">
             <IconButton
             aria-label="more"
@@ -47,9 +47,9 @@ function MobileHeader(){
             }}
             >
             {options.map((option) => (
-                <MenuItem key={option} selected={option === 'About Us'} onClick={handleClose}>
-                    {option}
-                </MenuItem>
+                <Link to={`/${option.replace(/\s+/g, '')}`}><MenuItem key={option} selected={option === 'About Us'} onClick={handleClose}>
+                    {'<'}{option}{'>'}
+                </MenuItem></Link>
             ))}
             </Menu>
         </div>
