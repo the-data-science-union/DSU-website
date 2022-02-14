@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DSU-website/static/css/main.c0fd6ffc.css",
-    "main.js": "/DSU-website/static/js/main.d44f53a7.js",
+    "main.js": "/DSU-website/static/js/main.1ddd6b10.js",
     "static/media/onlineGraphic.svg": "/DSU-website/static/media/onlineGraphic.efe1636423d4c0de10f252f0e53d57c6.svg",
     "static/media/HomePageGraphic.svg": "/DSU-website/static/media/HomePageGraphic.f2b4b4d7986ca28dd115bbae86206f4c.svg",
     "static/media/DSULogo.svg": "/DSU-website/static/media/DSULogo.368b6150a1aedf0954147575f626e5d7.svg",
@@ -16,10 +16,10 @@
     "static/media/instagramLogo.svg": "/DSU-website/static/media/instagramLogo.d96cb8a8d3a0b81872159b1c43dd789d.svg",
     "static/media/HamburgerMenu.svg": "/DSU-website/static/media/HamburgerMenu.9941da53c8ac3b0a18e0918b6c86eea7.svg",
     "main.c0fd6ffc.css.map": "/DSU-website/static/css/main.c0fd6ffc.css.map",
-    "main.d44f53a7.js.map": "/DSU-website/static/js/main.d44f53a7.js.map"
+    "main.1ddd6b10.js.map": "/DSU-website/static/js/main.1ddd6b10.js.map"
   },
   "entrypoints": [
     "static/css/main.c0fd6ffc.css",
-    "static/js/main.d44f53a7.js"
+    "static/js/main.1ddd6b10.js"
   ]
 }
