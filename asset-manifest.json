@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/DSU-website/static/css/main.c0fd6ffc.css",
-    "main.js": "/DSU-website/static/js/main.1ddd6b10.js",
+    "main.css": "/DSU-website/static/css/main.b5cb277b.css",
+    "main.js": "/DSU-website/static/js/main.ce577a61.js",
     "static/media/onlineGraphic.svg": "/DSU-website/static/media/onlineGraphic.efe1636423d4c0de10f252f0e53d57c6.svg",
     "static/media/HomePageGraphic.svg": "/DSU-website/static/media/HomePageGraphic.f2b4b4d7986ca28dd115bbae86206f4c.svg",
     "static/media/DSULogo.svg": "/DSU-website/static/media/DSULogo.368b6150a1aedf0954147575f626e5d7.svg",
     "static/media/facebookLogoMobile.svg": "/DSU-website/static/media/facebookLogoMobile.eae8d09bbc2e7083b8a359ed61412cee.svg",
     "static/media/facebookLogo.svg": "/DSU-website/static/media/facebookLogo.bd9f84379087d3ff1ffaa1cf81719b51.svg",
+    "static/media/AboutUsLandingGraphic.svg": "/DSU-website/static/media/AboutUsLandingGraphic.bf6b55bda09f324655f2fee0c62479da.svg",
     "static/media/LinkedInFooterLogo.svg": "/DSU-website/static/media/LinkedInFooterLogo.a568ef13b88984ea69ea19f89ebdfb12.svg",
     "static/media/FacebookFooterLogo.svg": "/DSU-website/static/media/FacebookFooterLogo.a0d3c5e5fd9fe832864e8e35127dd501.svg",
     "static/media/L&SoftwareRect.svg": "/DSU-website/static/media/L&SoftwareRect.54927219e69a2b9a2081548dfcff5d19.svg",
@@ -15,11 +16,11 @@
     "static/media/instagramLogoMobile.svg": "/DSU-website/static/media/instagramLogoMobile.1b0bc22bb55774ca872432bdf1f9de55.svg",
     "static/media/instagramLogo.svg": "/DSU-website/static/media/instagramLogo.d96cb8a8d3a0b81872159b1c43dd789d.svg",
     "static/media/HamburgerMenu.svg": "/DSU-website/static/media/HamburgerMenu.9941da53c8ac3b0a18e0918b6c86eea7.svg",
-    "main.c0fd6ffc.css.map": "/DSU-website/static/css/main.c0fd6ffc.css.map",
-    "main.1ddd6b10.js.map": "/DSU-website/static/js/main.1ddd6b10.js.map"
+    "main.b5cb277b.css.map": "/DSU-website/static/css/main.b5cb277b.css.map",
+    "main.ce577a61.js.map": "/DSU-website/static/js/main.ce577a61.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0fd6ffc.css",
-    "static/js/main.1ddd6b10.js"
+    "static/css/main.b5cb277b.css",
+    "static/js/main.ce577a61.js"
   ]
 }
