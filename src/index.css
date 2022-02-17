@@ -9,6 +9,13 @@
     font-display:swap;
 }
 
+.AboutUsText{
+     display: -webkit-box;
+    -webkit-box-orient: vertical;
+    max-width:30rem;
+    font-display:swap;
+}
+
 @media all and (max-width: 500px) {
     .LandSoftwareText{
     display: -webkit-box;
